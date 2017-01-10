@@ -238,7 +238,9 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
         if (defaultTabConfig == null) {
             defaultTabConfig = getTabConfig();
         }
-
+//        if (tabContainer != null) {
+//            tabContainer.removeAllViews();
+//        }
         TabParser parser = new TabParser(getContext(), defaultTabConfig, xmlRes);
         updateItems(parser.getTabs());
     }
@@ -346,7 +348,7 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
 
     /**
      * Set a listener that gets fired when the selected tab changes.
-     *
+     * <p>
      * Note: Will be immediately called for the currently selected tab
      * once when set.
      *
