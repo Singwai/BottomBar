@@ -1,8 +1,10 @@
 # BottomBar
 
-[![Build Status](https://travis-ci.org/roughike/BottomBar.svg?branch=master)](https://travis-ci.org/roughike/BottomBar) [![Coverage Status](https://coveralls.io/repos/github/roughike/BottomBar/badge.svg?branch=development)](https://coveralls.io/github/roughike/BottomBar?branch=master)
+[![Build Status](https://travis-ci.org/roughike/BottomBar.svg?branch=master)](https://travis-ci.org/roughike/BottomBar) [![Coverage Status](https://coveralls.io/repos/github/roughike/BottomBar/badge.svg?branch=development)](https://coveralls.io/github/roughike/BottomBar?branch=master) [![Download](https://api.bintray.com/packages/roughike/maven/bottom-bar/images/download.svg)](https://bintray.com/roughike/maven/bottom-bar/_latestVersion)
 
 <img src="https://raw.githubusercontent.com/roughike/BottomBar/master/graphics/shy-demo.gif" width="30%" /> <img src="https://raw.githubusercontent.com/roughike/BottomBar/master/graphics/shifting-demo.gif" width="30%" /> <img src="https://raw.githubusercontent.com/roughike/BottomBar/master/graphics/screenshot_tablet.png" width="33%" />
+
+[Discussion about maintenance status](https://github.com/roughike/BottomBar/issues/606)
 
 ## Version 2.0 released!
 
@@ -31,7 +33,7 @@ Your uncle Bob's Galaxy S Mini will probably be supported in the future though.
 ## Gimme that Gradle sweetness, pls?
 
 ```groovy
-compile 'com.roughike:bottom-bar:2.0.2'
+compile 'com.roughike:bottom-bar:2.1.1'
 ```
 
 **Maven:**
@@ -39,7 +41,7 @@ compile 'com.roughike:bottom-bar:2.0.2'
 <dependency>
   <groupId>com.roughike</groupId>
   <artifactId>bottom-bar</artifactId>
-  <version>2.0.2</version>
+  <version>2.1.1</version>
   <type>pom</type>
 </dependency>
 ```
@@ -366,6 +368,8 @@ nearby.removeBadge/();
 
 ## Apps using BottomBar
 
+
+  * [Nearby](https://play.google.com/store/apps/details?id=com.synergetechsolutions.nearbylive) : A location-based social networking app with over 5 million users.
   * [FragNav](https://github.com/ncapdevi/FragNav) : An Android Library for managing multiple stacks of Fragments. BottomBar is used in the sample app.
   * [BottomNavigationBar](https://github.com/pocheshire/BottomNavigationBar) : BottomBar ported to C# for Xamarin developers
   * [KyudoScoreBookTeam](https://play.google.com/store/apps/details?id=com.bowyer.app.android.kyudoscoreteam&hl=en) : BottomBar is used in the KyudoScoreBookTeam app.
